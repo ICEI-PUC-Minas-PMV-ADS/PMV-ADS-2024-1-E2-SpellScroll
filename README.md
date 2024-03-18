@@ -1,25 +1,25 @@
 # Título do Projeto
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`Eixo 2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O objetivo do projeto é a criação de uma aplicação que exibe todas as magias do RPG de mesa Dungeons and Dragons de uma forma fácil de visualizar e interagir.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Arthur Alves de Souza Costa
+* Juan Pereira Alves Andrade
+* Kiane Pinto Ramalho
+* Lucy Elaine
+* Luiz Gustavo Macedo
+* Thiago Gonçalves
 
 ## Orientador
 
-* Nome completo do professor
+* Carlos Alberto Marques Pietrobon
 
 # Documentação
 
