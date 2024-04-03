@@ -10,4 +10,4 @@ Para a persistência dos dados da aplicação aqui desenvolvida, optou-se por ut
 
 Segue abaixo o diagrama entidade-relacionamento relativo à estrutura da base de dados utilizada.
 
-![Diagrama Entidade Relacionamento](https://assets.digitalocean.com/articles/alligator/boo.svg "Diagrama ER")
+![Diagrama Entidade Relacionamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E1-SpellScroll/blob/main/documentos/img/er_spellscroll.png "Diagrama ER")
