@@ -13,24 +13,51 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ![Diagrama de Fluxo de Usuário](https://i.ibb.co/HrjvPgv/Screenshot-2024-03-23-185758.png)
 
-## Protótipo
 
-Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).
+<br>
+<hr>
 
-### Protótipo de baixa fidelidade
+## Wireframes
 
-Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
+As telas do sistema compartilham características comuns, como um cabeçalho com logo e opções de login. Já em seu conteúdo, a presença de filtros e a listagem de magias no centro da tela. Para visualizar o wireframe interativo, acesse o ambiente Figma: https://www.figma.com/proto/kc66rQ0fv6wRZA2906vQ9R/SpellScroll?type=design&node-id=73-96&t=TmZQzrn4tlljomBf-1&scaling=scale-down&page-id=0%3A1&mode=design
 
-[Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
+### Tela - Home page
 
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
->- Ferramentas:
->> - [Pencil](https://pencil.evolus.vn/)
->> - [MarvelApp](https://marvelapp.com/)
->> - [Figma](https://www.figma.com/)
+A página inicial apresenta uma lista com as magias do jogo, com filtros para as classes e níveis das magias. No cabeçalho consta a logo e os campos para entrar ou cadastrar uma conta, para usuários que desejam ter uma conta no site.
+
+### Tela - Filtro Classe
+
+Na tela inicial, os usuários podem realizar o filtro das magias de acordo com a sua classe.
+
+### Tela - Filtro Nível
+
+Na tela inicial, os usuários podem realizar o filtro das magias de acordo com o seu nível.
+
+### Tela - Cadastro
+
+Na tela de cadastro, os usuários podem criar uma conta fornecendo seu nome, endereço de e-mail e senha.
+
+### Tela - Login
+
+A tela de login oferece campos para inserir e-mail e senha. Os usuários podem clicar no botão "Entrar" para acessar sua conta de forma mais personalizada ou no botão "Esqueci minha senha" para recuperar a conta. 
+
+### Tela – Usuário Logado
+
+Na tela inicial com o usuário logado, é possível favoritar magias e, além dos filtros de classe e nível, realizar o filtro das magias já favoritadas.
+
+### Tela – Perfil do Usuário
+
+A tela do perfil do usuário apresenta seu nome, foto de perfil e suas magias favoritas. Também apresenta a funcionalidade de compartilhar via link sua lista de magias favoritas e cancelar ou sair da sua conta.
+
+### Tela – Filtro Favoritas 
+
+O usuário pode realizar o filtro das magias já favoritadas, sendo estas funcionalidades permitidas apenas para usuários cadastrados.
+
+### Tela - Cancelar Conta
+
+Na tela para o usuário realizar o cancelamento da conta consta o campo para confirmar sua senha, por uma questão de segurança, e os botões para confirmar o cancelamento ou desistir da solicitação.
+
+
 
 
 
