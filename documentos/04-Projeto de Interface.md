@@ -23,41 +23,65 @@ As telas do sistema compartilham características comuns, como um cabeçalho com
 
 ### Tela - Home page
 
-A página inicial apresenta uma lista com as magias do jogo, com filtros para as classes e níveis das magias. No cabeçalho consta a logo e os campos para entrar ou cadastrar uma conta, para usuários que desejam ter uma conta no site.
+A página inicial apresenta uma lista com as magias do jogo, com filtros para as classes e níveis das magias. No cabeçalho consta o logo e os campos para entrar ou cadastrar uma conta, para usuários que desejam ter uma conta no site.
 
-### Tela - Filtro Classe
+![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E1-SpellScroll/103116f88e7cc6f5952faed10c9da62fd6df42ca/documentos/img/TELA%201%20-%20HOME%20.png)
+
+### Tela Inicial - Filtro Classe
 
 Na tela inicial, os usuários podem realizar o filtro das magias de acordo com a sua classe.
 
-### Tela - Filtro Nível
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E1-SpellScroll/blob/main/documentos/img/TELA%20FILTRO%20CLASSE.png?raw=true)
+
+### Tela Inicial - Filtro Nível
 
 Na tela inicial, os usuários podem realizar o filtro das magias de acordo com o seu nível.
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E1-SpellScroll/blob/main/documentos/img/TELA%20FILTRO%20N%C3%8DVEL.png?raw=true)
+
 ### Tela - Cadastro
 
-Na tela de cadastro, os usuários podem criar uma conta fornecendo seu nome, endereço de e-mail e senha.
+Na tela de cadastro, os usuários podem criar uma conta fornecendo seu nome, endereço de e-mail e senha. O logo é um botão que direciona o usuário à tela inicial em todas as telas. 
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E1-SpellScroll/blob/main/documentos/img/TELA%20CADASTRO.png?raw=true)
 
 ### Tela - Login
 
 A tela de login oferece campos para inserir e-mail e senha. Os usuários podem clicar no botão "Entrar" para acessar sua conta de forma mais personalizada ou no botão "Esqueci minha senha" para recuperar a conta. 
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E1-SpellScroll/blob/main/documentos/img/TELA%20LOGIN.png?raw=true)
+
 ### Tela – Usuário Logado
 
 Na tela inicial com o usuário logado, é possível favoritar magias e, além dos filtros de classe e nível, realizar o filtro das magias já favoritadas.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E1-SpellScroll/blob/main/documentos/img/TELA%20USU%C3%81RIO%20LOGADO.png?raw=true)
+
+### Tela Usuário Logado – Filtro Favoritas 
+
+O usuário pode realizar o filtro das magias já favoritadas, sendo estas funcionalidades permitidas apenas para usuários cadastrados.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E1-SpellScroll/blob/main/documentos/img/TELA%20FILTRO%20FAVORITAS.png?raw=true)
 
 ### Tela – Perfil do Usuário
 
 A tela do perfil do usuário apresenta seu nome, foto de perfil e suas magias favoritas. Também apresenta a funcionalidade de compartilhar via link sua lista de magias favoritas e cancelar ou sair da sua conta.
 
-### Tela – Filtro Favoritas 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E1-SpellScroll/blob/main/documentos/img/TELA%20PERFIL%20USU%C3%81RIO.png?raw=true)
 
-O usuário pode realizar o filtro das magias já favoritadas, sendo estas funcionalidades permitidas apenas para usuários cadastrados.
+### Tela – Compartilhamento de Magias Favoritas 
 
-### Tela - Cancelar Conta
+O usuário logado pode compartilhar suas magias favoritas através do botão "Compartilhar", gerando um link.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E1-SpellScroll/blob/main/documentos/img/TELA%20COMPARTILHAR%20FAVORITAS.png?raw=true)
+
+### Tela - Cancelamento da Conta
 
 Na tela para o usuário realizar o cancelamento da conta consta o campo para confirmar sua senha, por uma questão de segurança, e os botões para confirmar o cancelamento ou desistir da solicitação.
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E1-SpellScroll/blob/main/documentos/img/TELA%20CANCELAR%20CONTA.png?raw=true)
 
-
+<br>
+<hr>
 
 
