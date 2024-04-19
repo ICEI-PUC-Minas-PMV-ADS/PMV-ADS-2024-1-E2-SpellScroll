@@ -14,7 +14,7 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
 - Scrum Master: Lucy Suxo.
 - Product Owner: Lucy Suxo.
-- Equipe de Desenvolvimento: Juan ANdrade, Arthur Souza, Thiago Gonçalves.
+- Equipe de Desenvolvimento: Juan Andrade, Arthur Souza, Thiago Gonçalves.
 - Equipe de Design: Lucy Suxo.
 
 
