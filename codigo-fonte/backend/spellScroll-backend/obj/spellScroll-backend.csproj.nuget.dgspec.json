@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\backend\\spellScroll-backend\\spellScroll-backend.csproj": {}
+    "C:\\Users\\Arthur\\Desktop\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\backend\\spellScroll-backend\\spellScroll-backend.csproj": {}
   },
   "projects": {
-    "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\backend\\spellScroll-backend\\spellScroll-backend.csproj": {
+    "C:\\Users\\Arthur\\Desktop\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\backend\\spellScroll-backend\\spellScroll-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\backend\\spellScroll-backend\\spellScroll-backend.csproj",
+        "projectUniqueName": "C:\\Users\\Arthur\\Desktop\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\backend\\spellScroll-backend\\spellScroll-backend.csproj",
         "projectName": "spellScroll-backend",
-        "projectPath": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\backend\\spellScroll-backend\\spellScroll-backend.csproj",
-        "packagesPath": "C:\\Users\\juana\\.nuget\\packages\\",
-        "outputPath": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\backend\\spellScroll-backend\\obj\\",
+        "projectPath": "C:\\Users\\Arthur\\Desktop\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\backend\\spellScroll-backend\\spellScroll-backend.csproj",
+        "packagesPath": "C:\\Users\\Arthur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arthur\\Desktop\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\backend\\spellScroll-backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\juana\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Arthur\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -46,6 +41,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.19.6, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.7, )"
             }
           },
           "imports": [
@@ -67,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
