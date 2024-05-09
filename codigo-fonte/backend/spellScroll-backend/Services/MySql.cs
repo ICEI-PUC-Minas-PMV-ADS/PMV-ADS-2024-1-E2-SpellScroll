@@ -5,11 +5,12 @@ namespace spellScroll_backend;
 public class MySql
 {
 
+    // Carece conexão com o bando de dados cloud
     private static readonly MySqlConnection connection = new(new MySqlConnectionStringBuilder
     {
-        Server = "spellscrollpuc.mysql.database.azure.com",
-        UserID = "spellscroll",
-        Password = "Pucm1n@s",
+        Server = "serverhost",
+        UserID = "userId",
+        Password = "pass",
         SslMode = MySqlSslMode.Required,
     }.ConnectionString);
 
