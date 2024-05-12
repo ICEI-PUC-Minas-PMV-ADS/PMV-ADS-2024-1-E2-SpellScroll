@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using spellScrollBackend.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,5 +14,6 @@ namespace app_web_backend.Models
         }
 
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Spell> Spells { get; set; }
     }
 }
