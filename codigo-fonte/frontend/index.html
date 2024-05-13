@@ -47,6 +47,10 @@
                     <div class="hidden mt-2 mr-4 sm:inline-block">
                         <a class="github-button" href="https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll" data-size="large" data-icon="octicon-star" data-show-count="true" aria-label="Star themesberg/SpellScroll on GitHub">Star</a>
                     </div>
+                    <!--Botão Popup Compartilhar-->
+                    <div id="shareButton" class="btn-compartilhar">
+                        <a href="#" class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-10 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Compartilhar</a>
+                        </div>
                     <a href="" class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Sua conta</a>
                     <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
@@ -70,6 +74,52 @@
             </div>
         </nav>
     </header>
+    <!-- Start block Popup -->
+    <style>  
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: .5rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            max-width: 80%; 
+          }
+          </style>
+          
+          <body>        
+          <div id="popup" class="popup">
+            <link rel="stylesheet" href="popup-compartilhamento.css">
+            <span onclick="closePopup()" style="position: absolute; top: 5px; right: 10px; cursor: pointer;">X</span>
+            <p>Compartilhe suas magias favoritas:</p>
+            <input type="text" id="linkInput" readonly>
+            <button class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-10 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800" onclick="copyLink()">Copiar</button>
+          </div>
+    
+          
+          <script>
+          document.getElementById("shareButton").addEventListener("click", function() {
+            document.getElementById("popup").style.display = "block";
+            document.getElementById("linkInput").value = window.location.href;
+          });
+          
+          function closePopup() {
+            document.getElementById("popup").style.display = "none";
+          }
+          
+          function copyLink() {
+            var linkInput = document.getElementById("linkInput");
+            linkInput.select();
+            document.execCommand("copy");
+            alert("Link copiado para a área de transferência!");
+          }
+          </script>
+            <!-- End block Popup -->
 
     <!-- Start block -->
     <section class="bg-white dark:bg-gray-900">
