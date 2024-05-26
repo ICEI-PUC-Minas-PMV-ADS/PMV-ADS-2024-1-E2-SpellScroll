@@ -1,4 +1,4 @@
-# Análise da Solução
+# Arquitetura da Solução
 
 ## Diagrama de Classe
 
