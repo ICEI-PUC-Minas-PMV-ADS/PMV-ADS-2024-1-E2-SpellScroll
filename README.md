@@ -28,11 +28,15 @@ O objetivo do projeto é a criação de uma aplicação que exibe todas as magia
 <li><a href="documentos/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
 <li><a href="documentos/03-Metodologia.md"> Metodologia</a></li>
 <li><a href="documentos/04-Projeto de Interface.md"> Projeto de Interface</a></li>
-<li><a href="documentos/05-Template padrão da Aplicação.md"> Template padrão da Aplicação</a></li>
-<li><a href="documentos/06-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
-<li><a href="documentos/07-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
-<li><a href="documentos/08-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
-<li><a href="documentos/09-Referências.md"> Referências Bibliográficas</a></li>
+<li><a href="documentos/05-Arquitetura da Solução.md"> Arquiterua da Solução</a></li>
+<li><a href="documentos/06-Template padrão da Aplicação.md"> Template padrão da Aplicação</a></li>
+<li><a href="documentos/07-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
+<li><a href="documentos/08-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
+<li><a href="documentos/09-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
+<li><a href="documentos/10-Plano de Testes de Usabilidade.md"> Plano de Testes de Usabilidade</a></li>
+<li><a href="documentos/11-Registro de Testes de Usabilidade.md"> Registro de Testes de Usabilidade</a></li>
+<li><a href="documentos/12-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
+<li><a href="documentos/13-Referências.md"> Referências</a></li>
 </ol>
 
 # Hospedagem
