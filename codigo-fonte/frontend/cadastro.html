@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Spellscroll</title>
+    <link href="./cadastro.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="cadastro-container">
+        <div class="cadastro-box">
+            <h2>Cadastro</h2>
+            <form id="cadastroForm">
+                <div class="input-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirm-password">Confirmar Senha:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <div class="button-container">
+                    <button type="submit" class="cadastro-button">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="cadastro.js"></script>
+</body>
+
+</html>
+
