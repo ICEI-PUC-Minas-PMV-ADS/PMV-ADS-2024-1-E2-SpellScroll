@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Spells")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+574cefa34a8fe14d9ea8545881e970b2c879dc3e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8976f5f49acc30a15082a226dc451eee65fe6b15")]
 [assembly: System.Reflection.AssemblyProductAttribute("Spells")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Spells")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

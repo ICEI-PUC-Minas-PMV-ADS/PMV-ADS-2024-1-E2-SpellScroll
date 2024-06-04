@@ -4,7 +4,7 @@
 
 namespace Spells.Migrations
 {
-    public partial class M1 : Migration
+    public partial class M12 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -12,8 +12,7 @@ namespace Spells.Migrations
                 name: "Spell",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Classes = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Concentration = table.Column<bool>(type: "bit", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -33,20 +32,7 @@ namespace Spells.Migrations
                     table.PrimaryKey("PK_Spell", x => x.Id);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "Usuarios",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Senha = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Usuarios", x => x.Id);
-                });
+
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

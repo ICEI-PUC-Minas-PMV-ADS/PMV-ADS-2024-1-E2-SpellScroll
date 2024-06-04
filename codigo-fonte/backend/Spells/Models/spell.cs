@@ -8,7 +8,7 @@ namespace spellScrollBackend.Models
     public class Spell
     {
         [Key]
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         public string Classes { get; set; }
 
@@ -20,7 +20,7 @@ namespace spellScrollBackend.Models
 
         public int Level { get; set; }
 
-        public string Material { get; set; }
+        public string? Material { get; set; } //Allow NULL values
 
         public string Reach { get; set; }
 

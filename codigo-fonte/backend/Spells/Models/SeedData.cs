@@ -12,11 +12,11 @@ namespace Spells.Models
                     DbContextOptions<ApplicationDbContext>>()))
             {
                 // Look for any movies.
-                if (context.Spells.Any())
+                if (context.Spell.Any())
                 {
                     return;   // DB has been seeded
                 }
-                context.Spells.AddRange(
+                context.Spell.AddRange(
                     new Spell
                     {
                      

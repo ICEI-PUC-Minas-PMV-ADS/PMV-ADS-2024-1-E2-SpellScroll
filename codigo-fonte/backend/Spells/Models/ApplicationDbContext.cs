@@ -14,6 +14,6 @@ namespace Spells.Models
         }
 
         public DbSet<Usuario> Usuarios { get; set; }
-        public DbSet<Spell> Spells { get; set; }
+        public DbSet<Spell> Spell { get; set; }
     }
 }

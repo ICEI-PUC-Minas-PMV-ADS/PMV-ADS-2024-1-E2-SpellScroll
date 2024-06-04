@@ -11,8 +11,8 @@ using Spells.Models;
 namespace Spells.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240603222322_M1")]
-    partial class M1
+    [Migration("20240604142118_M13")]
+    partial class M13
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -50,11 +50,8 @@ namespace Spells.Migrations
 
             modelBuilder.Entity("spellScrollBackend.Models.Spell", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Classes")
                         .IsRequired()
@@ -75,7 +72,6 @@ namespace Spells.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Material")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Reach")

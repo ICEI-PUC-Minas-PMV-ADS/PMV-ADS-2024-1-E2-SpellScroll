@@ -18,8 +18,8 @@ namespace Spells.Controllers
 
         public async Task<IActionResult> Index()
         {
-
-            var dados = await _context.Spells.ToListAsync();
+           
+            var dados = await _context.Spell.ToListAsync();
 
             return View(dados);
         }
@@ -34,7 +34,7 @@ namespace Spells.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Spells.Add(spells);
+                _context.Spell.Add(spells);
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
