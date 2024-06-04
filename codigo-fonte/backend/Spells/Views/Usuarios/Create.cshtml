@@ -4,39 +4,108 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<style>
+    main {
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+    }
 
-<h4>Usuario</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Senha" class="control-label"></label>
-                <input asp-for="Senha" class="form-control" />
-                <span asp-validation-for="Senha" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
+    .cadastro-container {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+    }
 
-<div>
+    .cadastro-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .cadastro-box h2 {
+            margin-bottom: 20px;
+        }
+
+    .input-group {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .input-group input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cadastro-button {
+        background-color: #6b21a8;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+        .cadastro-button:hover {
+            background-color: #5a189a;
+        }
+
+</style>
+
+<body>
+    <div class="cadastro-container">
+        <div class="cadastro-box">
+            <h2>Cadastro</h2>
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="input-group">
+                    <label asp-for="Nome"></label>
+                    <input asp-for="Nome">
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                <div class="input-group">
+                    <label asp-for="Email" ></label>
+                    <input asp-for="Email" >
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="input-group">
+                    <label asp-for="Senha" ></label>
+                    <input asp-for="Senha" >
+                    <span asp-validation-for="Senha" class="text-danger"></span>
+                </div>
+
+                <div class="button-container">
+                    <button type="submit" value="Create" class="cadastro-button">Cadastrar</button>
+                </div>
+            </form>
+        </div>
     <a asp-action="Index">Back to List</a>
-</div>
+    </div>
+</body>
+
+</html>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

@@ -11,8 +11,8 @@ using Spells.Models;
 namespace Spells.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240603164226_M03-addnewuser")]
-    partial class M03addnewuser
+    [Migration("20240603222322_M1")]
+    partial class M1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
