@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="~/Spells.styles.css" asp-append-version="true" />
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
-<body>
+<body class="dark:text-white dark:bg-gray-900">
     <header class="w-full">
-        <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
+        <nav class="border-gray-200 py-2.5 dark:bg-gray-800">
             <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
                 <a href="/" class="flex items-center">
                     <div class="h-6 mr-3 sm:h-9">
@@ -51,7 +51,7 @@
                     <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Spellscroll</span>
                 </a>
                 <div class="flex items-center lg:order-2">
-                    <div class="hidden mt-2 mr-4 sm:inline-block">
+                    <div class="hidden mt-2 mr-4 sm:inline-block bg-white">
                         <a class="github-button" href="https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll" data-size="large" data-icon="octicon-star" data-show-count="true" aria-label="Star themesberg/SpellScroll on GitHub">Star</a>
                     </div>
                     <!--Botão Popup Compartilhar-->
@@ -105,7 +105,7 @@
         }
     </style>
 
-    <div class="container">
+    <div>
         <main role="main" class="pb-3">
         <div id="popup" class="popup">
             <link rel="stylesheet" href="popup-compartilhamento.css">
@@ -141,9 +141,48 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - Spells - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
+    <footer class="dark:bg-gray-900 flex dark:text-white border-t-2 w-full border-white">
+        <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
+            <div class="text-center flex items-center justify-center gap-4">
+                <a href="#" class="flex items-center justify-center  gap-4 items-center justify-center text-2xl font-semibold text-gray-900 dark:text-white">
+                    <svg width="30" height="33" viewBox="0 0 30 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="mask0_2114_6" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="30" height="33">
+                            <path d="M12.0589 0.945659C13.8053 -0.0626144 15.9569 -0.0626158 17.7033 0.945657L26.94 6.27846C28.6864 7.28674 29.7622 9.1501 29.7622 11.1666V21.8323C29.7622 23.8488 28.6864 25.7122 26.94 26.7204L17.7033 32.0532C15.9569 33.0615 13.8053 33.0615 12.0589 32.0533L2.8222 26.7204C1.07582 25.7122 0 23.8488 0 21.8323V11.1666C0 9.1501 1.07582 7.28674 2.8222 6.27846L12.0589 0.945659Z" fill="#C4C4C4" />
+                        </mask>
+                        <g mask="url(#mask0_2114_6)">
+                            <path d="M14.8771 -0.964844L31.1889 8.45279L22.934 12.8976L19.5243 11.0377L16.4245 11.3477L8.67505 8.55788L6.81518 11.0377L5.88525 12.2776L4.02539 11.0377L-1.43481 8.45279L14.8771 -0.964844Z" fill="url(#paint0_linear_2114_6)" />
+                            <path d="M-0.128905 8.58667L6.19899 11.6553L9.91871 20.6446V20.9546L11.1586 22.5045L16.7382 26.8442L14.8802 34.5832L-0.128906 25.9177L-0.128905 8.58667Z" fill="url(#paint1_linear_2114_6)" />
+                            <path d="M19.8341 20.9532L23.8638 12.2738L29.886 8.58765V25.9186L14.8769 34.5842L14.5645 26.8427L19.8341 20.9532Z" fill="url(#paint2_linear_2114_6)" />
+                            <path d="M14.8763 6.08203C12.3115 6.08203 9.9741 7.05551 8.21323 8.65311L9.6428 20.9608C10.0337 21.1413 12.2759 21.8909 12.7065 21.8909H15.8062C16.3541 21.8909 20.1459 20.7231 20.1459 21.2709L19.8359 19.9689C19.8359 20.5168 19.3919 20.9608 18.844 20.9608H10.9086C10.3608 20.9608 9.91667 20.5168 9.91667 19.9689V15.1669C9.91667 14.7363 9.82323 14.3109 9.6428 13.9198L8.21323 8.65311C6.61563 10.4139 4.95703 13.4365 4.95703 16.0013C4.95703 21.4796 9.39799 25.9206 14.8763 25.9206C20.3546 25.9206 24.7956 21.4796 24.7956 16.0013C24.7956 10.523 20.3546 6.08203 14.8763 6.08203Z" fill="url(#paint3_linear_2114_6)" />
+                        </g>
+                        <defs>
+                            <linearGradient id="paint0_linear_2114_6" x1="14.5647" y1="0.498467" x2="14.2821" y2="11.8208" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#4E00D3" />
+                                <stop offset="1" stop-color="#7A36F0" />
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_2114_6" x1="14.8783" y1="23.4344" x2="5.90272" y2="12.6727" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#5508D8" />
+                                <stop offset="1" stop-color="#7935EF" />
+                            </linearGradient>
+                            <linearGradient id="paint2_linear_2114_6" x1="14.8744" y1="24.6729" x2="23.4474" y2="13.2138" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#5205D6" />
+                                <stop offset="1" stop-color="#7A35F0" />
+                            </linearGradient>
+                            <linearGradient id="paint3_linear_2114_6" x1="14.8763" y1="6.08203" x2="14.8763" y2="25.9206" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#7935EF" />
+                                <stop offset="1" stop-color="#6117E0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <p class="dark:text-white">
+                    Spellscroll
+                    </p>
+                </a>
+                <span class="block text-sm text-center text-gray-500 dark:text-gray-400">
+                    © 2024 Spellscroll. All Rights Reserved. Built with <a href="https://flowbite.com" class="text-purple-600 hover:underline dark:text-purple-500">Flowbite</a> and <a href="https://tailwindcss.com" class="text-purple-600 hover:underline dark:text-purple-500">Tailwind CSS</a>.
+                </span>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
