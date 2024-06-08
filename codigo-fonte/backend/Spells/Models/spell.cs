@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Spells.Models;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -30,6 +31,8 @@ namespace spellScrollBackend.Models
         public string SpellName { get; set; }
         public string Time { get; set; }
         public Boolean Verbal { get; set; }
+
+        public ICollection<FavoriteSpell> FavoriteSpells { get; set;}
 
     }
 }

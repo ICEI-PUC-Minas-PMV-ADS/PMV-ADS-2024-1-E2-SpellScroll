@@ -22,6 +22,26 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9caW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/FavoriteSpells/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVTcGVsbHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/FavoriteSpells/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVTcGVsbHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/FavoriteSpells/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVTcGVsbHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/FavoriteSpells/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVTcGVsbHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/FavoriteSpells/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVTcGVsbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,6 +60,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Spells/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlbGxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Spells/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlbGxzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Usuarios/Create.cshtml]

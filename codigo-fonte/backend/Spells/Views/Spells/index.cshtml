@@ -4,52 +4,58 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>SLa</h1>
+<h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
+<div>
+    <label for="classFilter">Filter by Class: </label>
+    <select id="classFilter" onchange="filterSpells()">
+        <option value="">All Classes</option>
+        <option value="Bardo">Bardo</option>
+        <!-- Add other classes as needed -->
+    </select>
+</div>
+
+<table class="table" id="spellTable">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Classes)
+                @Html.DisplayNameFor(model => model.First().Classes)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Concentration)
+                @Html.DisplayNameFor(model => model.First().Concentration)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Description)
+                @Html.DisplayNameFor(model => model.First().Description)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Duration)
+                @Html.DisplayNameFor(model => model.First().Duration)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Level)
+                @Html.DisplayNameFor(model => model.First().Level)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Material)
+                @Html.DisplayNameFor(model => model.First().Material)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Reach)
+                @Html.DisplayNameFor(model => model.First().Reach)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Ritual)
+                @Html.DisplayNameFor(model => model.First().Ritual)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.School)
+                @Html.DisplayNameFor(model => model.First().School)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Somatic)
+                @Html.DisplayNameFor(model => model.First().Somatic)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.SpellName)
+                @Html.DisplayNameFor(model => model.First().SpellName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Time)
+                @Html.DisplayNameFor(model => model.First().Time)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Verbal)
+                @Html.DisplayNameFor(model => model.First().Verbal)
             </th>
             <th></th>
         </tr>
@@ -57,7 +63,7 @@
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
+            <tr class="spellRow" data-classes="@string.Join(",",item.Classes)">
                 <td>
                     @Html.DisplayFor(modelItem => item.Classes)
                 </td>
@@ -98,11 +104,41 @@
                     @Html.DisplayFor(modelItem => item.Verbal)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
+@section Scripts {
+    <script>
+        function filterSpells() {
+            var selectedClass = document.getElementById("classFilter").value;
+            console.log(selectedClass);
+            var rows = document.querySelectorAll(".spellRow");
+            console.log(rows);
+
+            rows.forEach(function (row) {
+                console.log("This is inside the foreach" + row.getAttribute("data-classes"))
+                let attributeValue = row.getAttribute("data-classes")
+                if (attributeValue && attributeValue.startsWith('[') && attributeValue.endsWith(']')) {
+                    let array = JSON.parse(attributeValue);
+                    array.map((item) => {
+                        if (item === selectedClass) {
+                            console.log("mitada");
+                            row.style.display = "";
+                        } else {
+                            console.log("Pão com pomada");
+                            row.style.display = "none";
+                        }
+                    });
+                } else {
+                    console.error('Attribute value is not an array');
+                }
+            
+                
+            });
+        }
+    </script>
+}

@@ -1,0 +1,107 @@
+﻿@model spellScrollBackend.Models.Spell
+
+@{
+    ViewData["Title"] = "Details";
+    var classes = Newtonsoft.Json.JsonConvert.DeserializeObject<string[]>(Model.Classes);
+}
+
+<div>
+    <h4 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">@Html.DisplayFor(model => model.SpellName)</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Classes)
+        </dt>
+        <dd id="resultado" class="col-sm-10">
+            @foreach (var clas in classes)
+{
+            <p>@clas</p>
+}
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Concentration)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Concentration)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Duration)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Duration)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Level)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Level)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Material)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Material)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Reach)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Reach)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ritual)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ritual)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.School)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.School)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Somatic)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Somatic)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SpellName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SpellName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Time)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Time)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Verbal)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Verbal)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+        <script>
+    let arr = @Html.DisplayFor(model => model.Classes);
+
+    let resultado = arr.map((item, index) => {
+        return `Item ${index + 1}: ${item}<br>`;
+    }).join('');
+
+    document.getElementById('resultado').innerHTML = resultado;
+</script>
