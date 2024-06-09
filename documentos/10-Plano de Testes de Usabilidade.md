@@ -17,6 +17,71 @@ c)	Avaliação dinâmica. Avaliar cinco atividades que tenham uma interação co
  
 d)	Conforme a avaliação anterior, como vocês avaliam seu projeto ou a parte do projeto que vocês avaliaram heuristicamente? O que deve melhorar? Como? O que está bom?
 
+
+Template de Avaliação Heurística
+
+Identificação
+|Nome Projeto |SpellScroll | <br>
+|--------------------|------------------------------------|----------------------------------------|
+|Grupo	|4 | 
+|Integrantes |Arthur Alves de Souza Costa <br> Juan Pereira Alves Andrade <br> Kiane Ramalho <br> Lucy Elaine <br> Luiz Gustavo Macedo <br> Thiago Gonçalves|
+
+
+
+
+
+
+
+Escala de avaliação
+
+|Escala	|Discriminação| <br>
+|--------------------|------------------------------------|----------------------------------------|
+|Nível 0: <br>Nível 1:. <br>Nível 2:. <br>Nível 3:. <br>Nível 4:.|Não é encarado necessariamente como um problema de usabilidade. <br>Problema estético que não tem necessidade de ser corrigido, a menos que haja tempo e recurso disponível. <br>Pequeno problema com baixa prioridade na correção. <br>Problema com alta prioridade de correção. <br>Catástrofe de usabilidade, ou seja, o produto só será liberado se a correção for feita.|
+
+
+# Avaliação das heurísticas
+
+
+## Avaliação Estática (inspeção feita pela equipe de desenvolvimento ou alguém externo)
+
+### As colunas marcadas com * só devem ser preenchidas após o teste ser realizado
+
+|Heurísticas (Nielsen)	|Notas dos avaliadores *	|Média *	|Consenso *   | Considerações *   |Melhorias *   |
+|--------------------|------------------------------|-----------|-------------|---------------------|------------|
+|Visibilidade do status | Aval 1: 1 <br>Aval 2: 1 <br>Aval 3: 0 <br>|xx | x|       |     |	
+|Compatibilidade com o mundo real |	Aval 1: 1 <br>Aval 2: 1 <br>Aval 3: 1 <br> |xx |x |
+|Retorno em caso de erro | Aval 1: 1 <br>Aval 2: 1 <br>Aval 3: 1 <br> |xx |x |  |  |
+|Prevenção a erros | Aval 1: 2 <br>Aval 2: 2 <br>Aval 3: 2 <br> |x |x | ...... |
+|Reconhecimento em vez de memorização | Aval 1: 1 <br>Aval 2: 0 <br>Aval 3: 0 <br> |xx |x |	 |  |	
+|Flexibilidade e eficiência de uso | Aval 1: 1 <br>Aval 2: 1 <br>Aval 3: 1 <br> |xx |x |  |  | 
+|Estética e design minimalista | Aval 1: 1 <br>Aval 2: 1 <br>Aval 3: 0 <br> |xx	|x |  |  |		
+|Ajudar o usuário a reconhecer, diagnosticar e recuperar-se de erros | Aval 1: 1 <br>Aval 2: 1 <br>Aval 3: 2 <br>|xx |x |....... |  |	
+	
+
+# Avaliação da Usabilidade Funcional (feita pelo usuário que faz transações – casos de uso) – Dinâmica
+
+## As colunas marcadas com * só devem ser preenchidas após o teste ser realizado
+
+
+|Atividade a ser realizada	|Feedback do usuário* |Considerações (quais os problemas, deficiências, limitações, etc.)* |Sugestão de melhorias* |
+|--------------------|------------------------------|-----------|-------------|
+|Exibir lista de magias |                              |		    |             |
+|Cadastro do usuário	 |                              |		    |             |
+|Login do usuário     |		    |             |                        			
+|Filtrar magia por classe |                              |		    |             |		
+|Filtrar magia por nível |                              |		    |             |			
+|Filtrar magias favoritas |                              |		    |             |
+|Favoritar magia |                              |		    |             |			
+|Compartilhar magia |                              |		    |             |		
+
+
+
+
+
+
+
+
+
 As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
 
 > **Links Úteis**:
