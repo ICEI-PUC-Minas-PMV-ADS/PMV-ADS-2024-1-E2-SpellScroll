@@ -23,7 +23,7 @@ namespace Spells.Models
         [DataType(DataType.Password)]
         public string Senha { get; set; }
 
-        public ICollection<FavoriteSpell> FavoriteSpells { get; set; }
+        // public ICollection<FavoriteSpell> FavoriteSpells { get; set; }
 
     }
 

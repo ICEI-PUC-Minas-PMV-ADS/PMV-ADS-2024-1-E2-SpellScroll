@@ -44,6 +44,74 @@ namespace Spells.Controllers
             return View(favoriteSpell);
         }
 
+
+        // GET: FavoriteSpells/SearchByUser/5
+        public async Task<IActionResult> SearchByUser(string? id)
+        {
+            if (id == null || _context.FavoriteSpells == null)
+            {
+                return NotFound();
+            }
+
+            var favoriteSpells = await _context.FavoriteSpells.Where(m => m.UserId == id).ToListAsync();
+            if (favoriteSpells == null || !favoriteSpells.Any())
+            {
+                return NotFound();
+            }
+
+
+            return View(favoriteSpells);
+        }
+
+        [HttpGet("FavoriteSpells/User/{userId}")]
+        public IActionResult GetFavoriteSpellsByUser(string userId)
+        {
+            if (string.IsNullOrEmpty(userId))
+            {
+                return BadRequest("User ID is required.");
+            }
+
+
+            var favoriteSpells = _context.FavoriteSpells.Where(m => m.UserId == userId).ToList();
+
+            if (favoriteSpells == null || !favoriteSpells.Any())
+            {
+                return NotFound(new { message = $"No favorite spells found for user ID: {userId}" });
+            }
+
+            return Ok(favoriteSpells);
+        }
+
+
+        [HttpPost("FavoriteSpells/Create")]
+        public IActionResult Create(string SpellId, string UserId)
+        {
+            if (string.IsNullOrEmpty(UserId))
+            {
+                return BadRequest("User ID is required.");
+            }
+
+            // Check if the spell is already liked by the user
+            var existingFavoriteSpell = _context.FavoriteSpells
+                .FirstOrDefault(fs => fs.SpellId == SpellId && fs.UserId == UserId);
+
+            if (existingFavoriteSpell != null)
+            {
+                return BadRequest(new { message = "This spell is already in your favorites." });
+            }
+
+            var favoriteSpell = new FavoriteSpell
+            {
+                SpellId = SpellId,
+                UserId = UserId
+            };
+
+            _context.FavoriteSpells.Add(favoriteSpell);
+            _context.SaveChanges();
+
+            return Ok(new { message = "Favorite spell created successfully." });
+        }
+
         // GET: FavoriteSpells/Create
         public IActionResult Create()
         {

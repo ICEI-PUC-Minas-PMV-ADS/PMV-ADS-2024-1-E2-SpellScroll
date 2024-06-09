@@ -11,6 +11,28 @@
     <select id="classFilter" onchange="filterSpells()">
         <option value="">All Classes</option>
         <option value="Bardo">Bardo</option>
+        <option value="Bruxo">Bruxo</option>
+        <option value="Clérigo">Clérigo</option>
+        <option value="Druida">Druida</option>
+        <option value="Feiticeiro">Feiticeiro</option>
+        <option value="Mago">Mago</option>
+        <option value="Paladino">Paladino</option>
+        <option value="Patrulheiro">Patrulheiro</option>
+    </select>
+</div>
+ <div>
+    <label for="levelFilter">Filter by Level: </label>
+    <select id="levelFilter" onchange="filterLevel()">
+        <option value="">All Levels</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
         <!-- Add other classes as needed -->
     </select>
 </div>
@@ -18,6 +40,9 @@
 <table class="table" id="spellTable">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().SpellName)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.First().Classes)
             </th>
@@ -49,9 +74,6 @@
                 @Html.DisplayNameFor(model => model.First().Somatic)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.First().SpellName)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.First().Time)
             </th>
             <th>
@@ -63,9 +85,12 @@
     <tbody>
         @foreach (var item in Model)
         {
-            <tr class="spellRow" data-classes="@string.Join(",",item.Classes)">
+            <tr class="spellRow" data-classes="@string.Join(",", item.Classes)" data-level="@item.Level">
                 <td>
-                    @Html.DisplayFor(modelItem => item.Classes)
+                    @Html.DisplayFor(modelItem => item.SpellName)
+                </td>
+                <td>
+                    @string.Join(",", item.Classes).Replace("\"", "").Replace("[", "").Replace("]", "")
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Concentration)
@@ -93,9 +118,6 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Somatic)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.SpellName)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Time)
@@ -136,9 +158,25 @@
                 } else {
                     console.error('Attribute value is not an array');
                 }
-            
+
                 
             });
         }
+                function filterLevel() {
+                    var selectedLevel = document.getElementById("levelFilter").value;
+                    console.log(selectedLevel)
+                    var rows = document.querySelectorAll(".spellRow");
+
+                    rows.forEach(function (row) {
+                        let level = row.getAttribute("data-level");
+                        if (selectedLevel === "" || level === selectedLevel) {
+                            row.style.display = "";
+                        } else {
+                            row.style.display = "none";
+                        }
+                    });
+                }
+
+
     </script>
 }

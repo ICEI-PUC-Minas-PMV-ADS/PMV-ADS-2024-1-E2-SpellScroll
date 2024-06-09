@@ -1,0 +1,39 @@
+﻿@model List<Spells.Models.FavoriteSpell>
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+@foreach (var favoriteSpell in Model)
+{
+    <div>
+        <h4>FavoriteSpell</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => favoriteSpell.UserId)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => favoriteSpell.UserId)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => favoriteSpell.Id)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => favoriteSpell.Id)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => favoriteSpell.SpellId)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => favoriteSpell.SpellId)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-action="Edit" asp-route-id="@favoriteSpell.Id">Edit</a> |
+        <a asp-action="Index">Back to List</a>
+    </div>
+}

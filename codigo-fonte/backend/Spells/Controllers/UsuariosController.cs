@@ -41,7 +41,7 @@ namespace Spells.Controllers
 
             if(dados == null)
             {
-            ViewBag.Message = usuario.Email;
+                 ViewBag.Message = usuario.Email;
                 return View();
             }
 
@@ -116,13 +116,30 @@ namespace Spells.Controllers
         {
             if (ModelState.IsValid)
             {
+                // Check if Nome already exists
+                var nomeExists = await _context.Usuarios.AnyAsync(u => u.Nome == usuario.Nome);
+                if (nomeExists)
+                {
+                    ModelState.AddModelError("Nome", "Username already exists.");
+                    return View(usuario);
+                }
+
+                // Check if Email already exists
+                var emailExists = await _context.Usuarios.AnyAsync(u => u.Email == usuario.Email);
+                if (emailExists)
+                {
+                    ModelState.AddModelError("Email", "Email already exists.");
+                    return View(usuario);
+                }
+
                 usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
                 _context.Add(usuario);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Login));
             }
             return View(usuario);
         }
+
 
         // GET: Usuarios1/Edit/5
         public async Task<IActionResult> Edit(int? id)

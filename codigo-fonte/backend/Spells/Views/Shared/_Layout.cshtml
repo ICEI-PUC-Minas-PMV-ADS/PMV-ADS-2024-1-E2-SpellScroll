@@ -54,20 +54,20 @@
                     <div class="hidden mt-2 mr-4 sm:inline-block bg-white">
                         <a class="github-button" href="https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll" data-size="large" data-icon="octicon-star" data-show-count="true" aria-label="Star themesberg/SpellScroll on GitHub">Star</a>
                     </div>
-                    <!--Botão Popup Compartilhar-->
-                    <div id="shareButton" class="btn-compartilhar">
-                        <a href="#" class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-10 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Compartilhar</a>
-                    </div>
 
                     <ul class="navbar-nav">
                         @if (User.Identity.IsAuthenticated)
                         {
                             var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
-                            
                             <li class="nav-item">
-                                Olá, @User.Identity.Name,
+                            <!--Botão Popup Compartilhar-->
+                            <div id="shareButton" class="btn-compartilhar">
+                                <a href="#" class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-10 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Compartilhar</a>
+                            </div>
+                            </li>
+                            <li class="nav-item">
+                                <a asp-controller="Usuarios" asp-area="" asp-action="Details" asp-route-id="@userId">Olá, @User.Identity.Name,</a>
                                 <a asp-controller="Usuarios" asp-area="" asp-action="Logout" >Sair</a>
-                                <a asp-controller="Usuarios" asp-area="" asp-action="Details" asp-route-id="@userId">Minha conta</a>
                             </li>
 
                             <script type="text/javascript">
@@ -79,7 +79,8 @@
                         else
                         {
                             <li class="nav-item">
-                                <a asp-controller="Usuarios" asp-area="" asp-action="Login">Login</a>
+                                <a asp-controller="Usuarios" asp-area="" asp-action="Login">Login</a> |
+                                <a asp-controller="Usuarios" asp-area="" asp-action="Create">Cadastrar</a>
                             </li>
                         }
                     </ul>
