@@ -46,15 +46,32 @@ Escala de avaliação
 
 ### As colunas marcadas com * só devem ser preenchidas após o teste ser realizado
 
+## Tela de Magias
 |Heurísticas (Nielsen)	|Notas dos avaliadores *	|Média *	|Consenso *   | Considerações *   |Melhorias *   |
 |--------------------|------------------------------|-----------|-------------|---------------------|------------|
-|Visibilidade do status | Aval 1: 1 <br>Aval 2: 1 <br>|xx | x|       |     |	
-|Compatibilidade com o mundo real |	Aval 1: 1 <br>Aval 2: 1 <br> |xx |x |
-|Retorno em caso de erro | Aval 1: 1 <br>Aval 2: 1 <br> |xx |x |  |  |
-|Prevenção a erros | Aval 1: 2 <br>Aval 2: 2 <br> |x |x | ...... |
-|Flexibilidade e eficiência de uso | Aval 1: 1 <br>Aval 2: 1 <br> <br> |xx |x |  |  | 
-|Estética e design minimalista | Aval 1: 1 <br>Aval 2: 1 <br><br> |xx	|x |  |  |		
-|Ajudar o usuário a reconhecer, diagnosticar e recuperar-se de erros | Aval 1: 1 <br>Aval 2: 1 <br>|xx |x |....... |  |	
+|Visibilidade do status | Aval 1: 3 <br>Aval 2: 2 <br>| 2,5 | 2 |Embora o design da tela precise de melhorias, está funcional e compreensível    | Melhoria no design |	
+|Compatibilidade com o mundo real |	Aval 1: 0 <br>Aval 2: 0 <br> | 0 | 0 |    |  Sem necessidade de melhoria |
+|Prevenção de erros | Aval 1: 0 <br>Aval 2: 0 <br> | 0 | 0 | O sistema sinaliza com pop-ups que aparecem em caso de erro e validatores nos formulários | Sem necessidade de melhoria |
+|Estética e design minimalista | Aval 1: 2 <br>Aval 2: 2 <br><br> | 2 | 2 | As funcionalidades estão operacionais, porém o design requer aprimoramento | Melhoria no design |		
+|Ajudar o usuário a reconhecer, diagnosticar e recuperar-se de erros | Aval 1: 0 <br>Aval 2: 0 <br>| 0 | 0 | O sistema sinaliza com pop-ups que aparecem em caso de erro e validatores nos formulários | Sem necessidade de melhoria |
+
+## Tela de Login	
+|Heurísticas (Nielsen)	|Notas dos avaliadores *	|Média *	|Consenso *   | Considerações *   |Melhorias *   |
+|--------------------|------------------------------|-----------|-------------|---------------------|------------|
+|Visibilidade do status | Aval 1: 1 <br>Aval 2: 0 <br>| 0,5 | 1 | Pequeno erro no design do botão   | Correção do botão "Star"  |	
+|Compatibilidade com o mundo real |	Aval 1: 0 <br>Aval 2: 0 <br> | 0 | 0 |    |  Sem necessidade de melhoria |
+|Prevenção de erros | Aval 1: 0 <br>Aval 2: 0 <br> | 0 | 0 | O sistema sinaliza com pop-ups que aparecem em caso de erro e validatores nos formulários | Sem necessidade de melhoria |
+|Estética e design minimalista | Aval 1: 0 <br>Aval 2: 0 <br><br> | 0 | 0 |   | Sem necessidade de melhoria |		
+|Ajudar o usuário a reconhecer, diagnosticar e recuperar-se de erros | Aval 1: 0 <br>Aval 2: 0 <br>| 0 | 0 | O sistema sinaliza com pop-ups que aparecem em caso de erro e validatores nos formulários | Sem necessidade de melhoria |	
+
+## Tela de Cadastro
+|Heurísticas (Nielsen)	|Notas dos avaliadores *	|Média *	|Consenso *   | Considerações *   |Melhorias *   |
+|--------------------|------------------------------|-----------|-------------|---------------------|------------|
+|Visibilidade do status | Aval 1: 1 <br>Aval 2: 0 <br>| 0,5 | 1 | A tela de cadastro requer ajustes na cor de fundo para garantir consistência com a tela de login |Melhoria no design|	
+|Compatibilidade com o mundo real |	Aval 1: 0 <br>Aval 2: 0 <br> | 0 | 0 |    |  Sem necessidade de melhoria |
+|Prevenção de erros | Aval 1: 3 <br>Aval 2: 2 <br> | 2,5 | 2 | Não há o campo para confirmação da senha | Adicionar o campo de confirmação de senha |
+|Estética e design minimalista | Aval 1: 0 <br>Aval 2: 0 <br> | 0 | 0 |  |Sem necessidade de melhoria  |		
+|Ajudar o usuário a reconhecer, diagnosticar e recuperar-se de erros | Aval 1: 3 <br>Aval 2: 2 <br>| 2,5 | 2 | Não há o campo para confirmação da senha  | Adicionar o campo de confirmação de senha |	
 	
 
 # Avaliação da Usabilidade Funcional (feita pelo usuário que faz transações – casos de uso) – Dinâmica
@@ -64,11 +81,11 @@ Escala de avaliação
 
 |Atividade a ser realizada	|Feedback do usuário* |Considerações (quais os problemas, deficiências, limitações, etc.)* |Sugestão de melhorias* |
 |--------------------|------------------------------|-----------|-------------|
-|Cadastro do usuário	 |                              |		    |             |
-|Login do usuário     |		    |             |                        			
-|Filtrar magia por classe |                              |		    |             |		
-|Filtrar magia por nível |                              |		    |             |						
-|Compartilhar magia |                              |		    |             |		
+|Cadastro do usuário	 | Sentiu falta da confirmação de senha | A tela não possui o campo de confirmação de senha | Adicionar o campo de confirmação de senha |
+|Login do usuário     |	Percebeu um defeito no botão Star  |  Há um defeito no design no botão "Star" | Correção do design do botão "Star"    
+|Filtrar magia por classe | A tela é usual, mas não é moderna   |		    |  Melhoria no design da tela   |		
+|Filtrar magia por nível |  A tela é usual, mas não é moderna   |		    |  Melhoria no design da tela   |			
+|Compartilhar magia |   O recurso está funcionando, mas o visual do pop-up precisa de melhoria |  |Melhoria no design do pop-up  |		
 
 
 
