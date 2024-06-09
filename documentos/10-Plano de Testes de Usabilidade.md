@@ -48,14 +48,14 @@ Escala de avaliação
 
 |Heurísticas (Nielsen)	|Notas dos avaliadores *	|Média *	|Consenso *   | Considerações *   |Melhorias *   |
 |--------------------|------------------------------|-----------|-------------|---------------------|------------|
-|Visibilidade do status | Aval 1: 1 <br>Aval 2: 1 <br>Aval 3: 0 <br>|xx | x|       |     |	
-|Compatibilidade com o mundo real |	Aval 1: 1 <br>Aval 2: 1 <br>Aval 3: 1 <br> |xx |x |
-|Retorno em caso de erro | Aval 1: 1 <br>Aval 2: 1 <br>Aval 3: 1 <br> |xx |x |  |  |
-|Prevenção a erros | Aval 1: 2 <br>Aval 2: 2 <br>Aval 3: 2 <br> |x |x | ...... |
-|Reconhecimento em vez de memorização | Aval 1: 1 <br>Aval 2: 0 <br>Aval 3: 0 <br> |xx |x |	 |  |	
-|Flexibilidade e eficiência de uso | Aval 1: 1 <br>Aval 2: 1 <br>Aval 3: 1 <br> |xx |x |  |  | 
-|Estética e design minimalista | Aval 1: 1 <br>Aval 2: 1 <br>Aval 3: 0 <br> |xx	|x |  |  |		
-|Ajudar o usuário a reconhecer, diagnosticar e recuperar-se de erros | Aval 1: 1 <br>Aval 2: 1 <br>Aval 3: 2 <br>|xx |x |....... |  |	
+|Visibilidade do status | Aval 1: 1 <br>Aval 2: 1 <br>|xx | x|       |     |	
+|Compatibilidade com o mundo real |	Aval 1: 1 <br>Aval 2: 1 <br> |xx |x |
+|Retorno em caso de erro | Aval 1: 1 <br>Aval 2: 1 <br> |xx |x |  |  |
+|Prevenção a erros | Aval 1: 2 <br>Aval 2: 2 <br> |x |x | ...... |
+|Reconhecimento em vez de memorização | Aval 1: 1 <br>Aval 2: 0 <br> |xx |x |	 |  |	
+|Flexibilidade e eficiência de uso | Aval 1: 1 <br>Aval 2: 1 <br> <br> |xx |x |  |  | 
+|Estética e design minimalista | Aval 1: 1 <br>Aval 2: 1 <br><br> |xx	|x |  |  |		
+|Ajudar o usuário a reconhecer, diagnosticar e recuperar-se de erros | Aval 1: 1 <br>Aval 2: 1 <br>|xx |x |....... |  |	
 	
 
 # Avaliação da Usabilidade Funcional (feita pelo usuário que faz transações – casos de uso) – Dinâmica
