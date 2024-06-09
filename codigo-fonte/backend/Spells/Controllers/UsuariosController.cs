@@ -37,11 +37,11 @@ namespace Spells.Controllers
         public async Task<IActionResult> Login(Usuario usuario)
         {
             var dados = await _context.Usuarios
-                .FindAsync(usuario.Id);
+                .FirstOrDefaultAsync(u => u.Email == usuario.Email);
 
-            if(dados == null)
+            if (dados == null)
             {
-                 ViewBag.Message = usuario.Email;
+                ViewBag.Message = usuario.Email;
                 return View();
             }
 
@@ -50,11 +50,11 @@ namespace Spells.Controllers
             if (passwordIsCorrect)
             {
                 var claims = new List<Claim>
-                {
-                    new Claim(ClaimTypes.Name, dados.Nome),
-                    new Claim(ClaimTypes.NameIdentifier, dados.Id.ToString()),
-                   // new Claim(ClaimTypes.Role, dados.Perfil.ToString())
-                };
+        {
+            new Claim(ClaimTypes.Name, dados.Nome),
+            new Claim(ClaimTypes.NameIdentifier, dados.Id.ToString()),
+            // new Claim(ClaimTypes.Role, dados.Perfil.ToString())
+        };
 
                 var userIdentity = new ClaimsIdentity(claims, "login");
                 ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
@@ -76,6 +76,7 @@ namespace Spells.Controllers
 
             return View();
         }
+
 
         public async Task<IActionResult> Logout()
         {

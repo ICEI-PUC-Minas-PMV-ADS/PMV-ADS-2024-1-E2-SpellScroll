@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\spellscroll\\pmv-ads-2024-1-e1-spellscroll\\codigo-fonte\\backend\\spells\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\spellscroll\\pmv-ads-2024-1-e1-spellscroll\\codigo-fonte\\backend\\spells\\views\\spells\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\spells\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\spellscroll\\pmv-ads-2024-1-e1-spellscroll\\codigo-fonte\\backend\\spells\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\spellscroll\\pmv-ads-2024-1-e1-spellscroll\\codigo-fonte\\backend\\spells\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\spellscroll\\pmv-ads-2024-1-e1-spellscroll\\codigo-fonte\\backend\\spells\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\spellscroll\\pmv-ads-2024-1-e1-spellscroll\\codigo-fonte\\backend\\spells\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\spellscroll\\pmv-ads-2024-1-e1-spellscroll\\codigo-fonte\\backend\\spells\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\spellscroll\\pmv-ads-2024-1-e1-spellscroll\\codigo-fonte\\backend\\spells\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\spellscroll\\pmv-ads-2024-1-e1-spellscroll\\codigo-fonte\\backend\\spells\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,24 +47,8 @@
       "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\models\\spell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\spellscroll\\pmv-ads-2024-1-e1-spellscroll\\codigo-fonte\\backend\\spells\\views\\spells\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\spells\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\spellscroll\\pmv-ads-2024-1-e1-spellscroll\\codigo-fonte\\backend\\spells\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\spellscroll\\pmv-ads-2024-1-e1-spellscroll\\codigo-fonte\\backend\\spells\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\spellscroll\\pmv-ads-2024-1-e1-spellscroll\\codigo-fonte\\backend\\spells\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\spellscroll\\pmv-ads-2024-1-e1-spellscroll\\codigo-fonte\\backend\\spells\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,24 +58,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Views\\Usuarios\\Edit.cshtml",
               "RelativeDocumentMoniker": "Spells\\Views\\Usuarios\\Edit.cshtml",
               "ToolTip": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Views\\Usuarios\\Edit.cshtml",
               "RelativeToolTip": "Spells\\Views\\Usuarios\\Edit.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAABNAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAswB8AAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-09T01:58:13.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Views\\Usuarios\\Details.cshtml",
               "RelativeDocumentMoniker": "Spells\\Views\\Usuarios\\Details.cshtml",
@@ -83,25 +87,24 @@
               "RelativeToolTip": "Spells\\Views\\Usuarios\\Details.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAADwvywAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T01:51:03.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T01:51:03.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Spells\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Spells\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADUAAAAAAAAAAAD4v0AAAAApAQAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAD4v0AAAAApAQAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-09T01:43:52.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "spell.cs",
               "DocumentMoniker": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Models\\spell.cs",
               "RelativeDocumentMoniker": "Spells\\Models\\spell.cs",
@@ -109,12 +112,24 @@
               "RelativeToolTip": "Spells\\Models\\spell.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T01:32:07.409Z",
+              "WhenOpened": "2024-06-09T01:32:07.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Views\\Spells\\index.cshtml",
+              "RelativeDocumentMoniker": "Spells\\Views\\Spells\\index.cshtml",
+              "ToolTip": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Views\\Spells\\index.cshtml",
+              "RelativeToolTip": "Spells\\Views\\Spells\\index.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAswFkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T01:18:57.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "SpellsController.cs",
               "DocumentMoniker": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Controllers\\SpellsController.cs",
               "RelativeDocumentMoniker": "Spells\\Controllers\\SpellsController.cs",
@@ -122,12 +137,11 @@
               "RelativeToolTip": "Spells\\Controllers\\SpellsController.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAD4vx8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T01:31:50.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T01:31:50.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Views\\Spells\\Details.cshtml",
               "RelativeDocumentMoniker": "Spells\\Views\\Spells\\Details.cshtml",
@@ -135,25 +149,11 @@
               "RelativeToolTip": "Spells\\Views\\Spells\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAC0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T01:31:39.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T01:31:39.125Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "index.cshtml",
-              "DocumentMoniker": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Views\\Spells\\index.cshtml",
-              "RelativeDocumentMoniker": "Spells\\Views\\Spells\\index.cshtml",
-              "ToolTip": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Views\\Spells\\index.cshtml",
-              "RelativeToolTip": "Spells\\Views\\Spells\\index.cshtml",
-              "ViewState": "AQIAAFUAAAAAAAAAAADgv1kAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T01:18:57.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Spells\\Views\\Home\\Index.cshtml",
@@ -161,29 +161,24 @@
               "RelativeToolTip": "Spells\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T01:17:28.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "WhenOpened": "2024-06-09T01:17:28.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Views\\Usuarios\\Login.cshtml",
               "RelativeDocumentMoniker": "Spells\\Views\\Usuarios\\Login.cshtml",
               "ToolTip": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Views\\Usuarios\\Login.cshtml",
               "RelativeToolTip": "Spells\\Views\\Usuarios\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-09T01:17:07.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Spells\\Models\\Usuario.cs",
@@ -191,31 +186,30 @@
               "RelativeToolTip": "Spells\\Models\\Usuario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T01:01:26.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T01:01:26.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "Spells\\Controllers\\UsuariosController.cs",
               "ToolTip": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "Spells\\Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAAHIAAAAAAAAAAAAAAIQAAAARAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAiwEkAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T00:27:04.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Views\\Usuarios\\Create.cshtml",
               "RelativeDocumentMoniker": "Spells\\Views\\Usuarios\\Create.cshtml",
               "ToolTip": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Views\\Usuarios\\Create.cshtml",
               "RelativeToolTip": "Spells\\Views\\Usuarios\\Create.cshtml",
-              "ViewState": "AQIAAFAAAAAAAAAAAADwv14AAAAqAAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAADwv2EAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-09T00:25:40.026Z",
               "EditorCaption": ""
