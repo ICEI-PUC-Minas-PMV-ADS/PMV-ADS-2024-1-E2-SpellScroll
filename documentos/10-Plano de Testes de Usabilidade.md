@@ -65,13 +65,10 @@ Escala de avaliação
 
 |Atividade a ser realizada	|Feedback do usuário* |Considerações (quais os problemas, deficiências, limitações, etc.)* |Sugestão de melhorias* |
 |--------------------|------------------------------|-----------|-------------|
-|Exibir lista de magias |                              |		    |             |
 |Cadastro do usuário	 |                              |		    |             |
 |Login do usuário     |		    |             |                        			
 |Filtrar magia por classe |                              |		    |             |		
-|Filtrar magia por nível |                              |		    |             |			
-|Filtrar magias favoritas |                              |		    |             |
-|Favoritar magia |                              |		    |             |			
+|Filtrar magia por nível |                              |		    |             |						
 |Compartilhar magia |                              |		    |             |		
 
 
