@@ -52,7 +52,6 @@ Escala de avaliação
 |Compatibilidade com o mundo real |	Aval 1: 1 <br>Aval 2: 1 <br> |xx |x |
 |Retorno em caso de erro | Aval 1: 1 <br>Aval 2: 1 <br> |xx |x |  |  |
 |Prevenção a erros | Aval 1: 2 <br>Aval 2: 2 <br> |x |x | ...... |
-|Reconhecimento em vez de memorização | Aval 1: 1 <br>Aval 2: 0 <br> |xx |x |	 |  |	
 |Flexibilidade e eficiência de uso | Aval 1: 1 <br>Aval 2: 1 <br> <br> |xx |x |  |  | 
 |Estética e design minimalista | Aval 1: 1 <br>Aval 2: 1 <br><br> |xx	|x |  |  |		
 |Ajudar o usuário a reconhecer, diagnosticar e recuperar-se de erros | Aval 1: 1 <br>Aval 2: 1 <br>|xx |x |....... |  |	
