@@ -16,6 +16,10 @@
 <div>
     <h4>Usuario</h4>
     <hr />
+    <!--Botão Popup Compartilhar-->
+    <div id="shareButton" class="btn-compartilhar">
+        <a href="#" class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-10 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Compartilhar</a>
+    </div>
     <dl class="row">
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Id)
@@ -55,6 +59,40 @@
     <!-- Favorite spells will be rendered here -->
 </div>
 
+<div>
+    <main role="main" class="pb-3">
+        <div id="popup" class="popup">
+            <link rel="stylesheet" href="popup-compartilhamento.css">
+            <span onclick="closePopup()" style="position: absolute; top: 5px; right: 10px; cursor: pointer;">X</span>
+            <p>Compartilhe suas magias favoritas:</p>
+            <input type="text" id="linkInput" readonly>
+            <button class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-10 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800" onclick="copyLink()">Copiar</button>
+        </div>
+
+
+        <script>
+            document.getElementById("shareButton").addEventListener("click", async function () {
+                document.getElementById("popup").style.display = "block";
+                //var userId = await User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+                var userId = sessionStorage.getItem("userId");
+                document.getElementById("linkInput").value = "https://localhost:44330/Usuarios/Details/" + userId;
+            });
+
+            function closePopup() {
+                document.getElementById("popup").style.display = "none";
+            }
+
+            function copyLink() {
+                var linkInput = document.getElementById("linkInput");
+                linkInput.select();
+                document.execCommand("copy");
+                alert("Link copiado para a área de transferência!");
+            }
+        </script>
+
+    </main>
+</div>
+
 
 <script>
     function getFavoriteSpell() {
@@ -91,5 +129,7 @@
             container.html('<p>No favorite spells found for this user.</p>');
         }
     }
+
+
 
 </script>

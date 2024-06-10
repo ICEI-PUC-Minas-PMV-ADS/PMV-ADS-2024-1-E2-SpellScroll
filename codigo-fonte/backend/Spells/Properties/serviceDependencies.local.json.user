@@ -1,4 +1,20 @@
 {
-  "dependencies": {},
-  "parameters": {}
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2024-06-10T02:30:41.1834585Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "e5924d19-b755-47d8-a36d-db7e7c908e08"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Project_PUC"
+    }
+  }
 }

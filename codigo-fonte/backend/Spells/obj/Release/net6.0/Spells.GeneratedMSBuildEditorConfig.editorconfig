@@ -1,0 +1,107 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Spells
+build_property.RootNamespace = Spells
+build_property.ProjectDir = C:\Programas\PUC\spellscroll\PMV-ADS-2024-1-E1-SpellScroll\codigo-fonte\Backend\Spells\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Programas\PUC\spellscroll\PMV-ADS-2024-1-E1-SpellScroll\codigo-fonte\Backend\Spells
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/FavoriteSpells/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVTcGVsbHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/FavoriteSpells/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVTcGVsbHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/FavoriteSpells/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVTcGVsbHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/FavoriteSpells/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVTcGVsbHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/FavoriteSpells/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVTcGVsbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/FavoriteSpells/SearchByUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVTcGVsbHNcU2VhcmNoQnlVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Spells/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlbGxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Spells/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlbGxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Usuarios/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-g50mn1ulds
+
+[C:/Programas/PUC/spellscroll/PMV-ADS-2024-1-E1-SpellScroll/codigo-fonte/Backend/Spells/Views/Spells/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlbGxzXGluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-g2kyvr0nw8
