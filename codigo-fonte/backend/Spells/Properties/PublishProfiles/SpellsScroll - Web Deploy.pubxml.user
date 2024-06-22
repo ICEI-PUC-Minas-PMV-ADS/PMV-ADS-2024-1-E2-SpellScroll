@@ -7,7 +7,12 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtG48WNvJEESlC73Xi+UNeQAAAAACAAAAAAAQZgAAAAEAACAAAAA8VEVUooACzM7+mlO5nFVUZtyJmCh0XuLceX1YEKTaWQAAAAAOgAAAAAIAACAAAAA5edHciSgb0emUQonBK3vJ+uDRgXdBd7/hmQo4NoPxqYAAAAD4LSwQ1e29iIopNkoI50eHEOf3/spnJldiQKT3dCz/cMQxngS5mX2vY1ef29lIUsuLHpu23l36GvMA48gYgOjzzQKPAJ3obNffBSG7bValH+CUDYpIBNIO0tR1NI3vCNpUViqyD58beDHjLXWox3kiSrloKJN2+ndIVEUBQfQwtkAAAADWWag623KczElxl9wW5zeWIdoIQivbRif+XO59P26EQRHZ4T3GHkzI05f51j+5wsHPcTowxpLEtj7+ae+adzYM</EncryptedPassword>
-    <History>True|2024-06-10T02:31:33.0054996Z;True|2024-06-09T23:26:28.0896538-03:00;True|2024-06-09T23:19:47.4326111-03:00;</History>
+    <History>True|2024-06-21T18:17:33.9239396Z;True|2024-06-21T15:12:57.5558509-03:00;True|2024-06-21T15:11:36.4276593-03:00;False|2024-06-21T15:08:24.0996633-03:00;True|2024-06-21T15:03:22.6776638-03:00;True|2024-06-21T14:53:31.3722481-03:00;True|2024-06-21T14:48:18.4241112-03:00;True|2024-06-09T23:31:33.0054996-03:00;True|2024-06-09T23:26:28.0896538-03:00;True|2024-06-09T23:19:47.4326111-03:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=spellscroll.database.windows.net%3bInitial Catalog=SpellScroll%3bUser ID=1440523%40sga.pucminas.br%3bPassword=projeto2024%24%3bConnect Timeout=30%3bEncrypt=True%3bTrust Server Certificate=False%3bAuthentication=ActiveDirectoryPassword%3bApplication Intent=ReadWrite%3bMulti Subnet Failover=False</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
 </Project>

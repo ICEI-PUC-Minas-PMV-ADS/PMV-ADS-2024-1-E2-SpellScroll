@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Spells.csproj": {}
+    "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Spells.csproj": {}
   },
   "projects": {
-    "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Spells.csproj": {
+    "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Spells.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Spells.csproj",
+        "projectUniqueName": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Spells.csproj",
         "projectName": "Spells",
-        "projectPath": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Spells.csproj",
+        "projectPath": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Spells.csproj",
         "packagesPath": "C:\\Users\\juana\\.nuget\\packages\\",
-        "outputPath": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\obj\\",
+        "outputPath": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juana\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -15,7 +15,7 @@
     <WebStackScaffolding_ControllerDialogWidth>650</WebStackScaffolding_ControllerDialogWidth>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
-    <NameOfLastUsedPublishProfile>C:\Programas\PUC\spellscroll\PMV-ADS-2024-1-E1-SpellScroll\codigo-fonte\Backend\Spells\Properties\PublishProfiles\SpellsScroll - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Programas\PUC\PMV-ADS-2024-1-E2-SpellScroll\codigo-fonte\backend\Spells\Properties\PublishProfiles\SpellsScroll - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

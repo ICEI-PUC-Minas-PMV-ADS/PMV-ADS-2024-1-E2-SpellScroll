@@ -1,47 +1,161 @@
-﻿@model IEnumerable<Spells.Models.Usuario>
+﻿@model Spells.Models.Usuario
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Details";
+    var userName = @Html.DisplayFor(model => model.Nome);
 }
+<style>
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-<h1>Index</h1>
+    .popup {
+        color: #000;
+    }
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Senha)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Senha)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 4rem;
+    }
+
+    .pfp {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    img {
+        background: #fff;
+        border-radius: 50%;
+    }
+
+    .subtext {
+        padding-left: 1rem
+    }
+
+    .edit {
+        color: #6f29e9;
+    }
+</style>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Spells</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Spells.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="./css/site.css" />
+    <script async defer src="https://cdn.tailwindcss.com"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<div>
+    <hr />
+    <div class="header">
+        <div class="pfp">
+            <img src="https://robohash.org/@userName" alt="@userName foto de perfil" />
+            <div class="subtext">
+                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white dark:bg-gray-900">@Html.DisplayFor(model => model.Nome)</h1>
+                <p>Oi, estou usando o SpellScroll</p>
+                <a class="edit" asp-action="Edit" asp-route-id="@Model?.Id">Editar Perfil</a>
+            </div>
+        </div>
+        <!--Botão Popup Compartilhar-->
+        <div id="shareButton" class="btn-compartilhar">
+            <a href="#" class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-10 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Compartilhar</a>
+        </div>
+    </div>
+
+</div>
+
+<div class="pt-8 pb-8">
+    <div class="flex align-center gap-4 ">
+        <a class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-10 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800 center" onclick="getFavoriteSpell()">
+            Exibir Magias favoritas
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M228,175a8,8,0,0,1-10.92-3l-19-33.2A123.23,123.23,0,0,1,162,155.46l5.87,35.22a8,8,0,0,1-6.58,9.21A8.4,8.4,0,0,1,160,200a8,8,0,0,1-7.88-6.69l-5.77-34.58a133.06,133.06,0,0,1-36.68,0l-5.77,34.58A8,8,0,0,1,96,200a8.4,8.4,0,0,1-1.32-.11,8,8,0,0,1-6.58-9.21L94,155.46a123.23,123.23,0,0,1-36.06-16.69L39,172A8,8,0,1,1,25.06,164l20-35a153.47,153.47,0,0,1-19.3-20A8,8,0,1,1,38.22,99c16.6,20.54,45.64,45,89.78,45s73.18-24.49,89.78-45A8,8,0,1,1,230.22,109a153.47,153.47,0,0,1-19.3,20l20,35A8,8,0,0,1,228,175Z"></path></svg>
+        </a>
+    </div>
+    <div id="favorite-spells-container">
+    </div>
+
+
+    <!-- Favorite spells will be rendered here -->
+</div>
+
+<div>
+    <main role="main" class="pb-3">
+        <div id="popup" class="popup">
+            <link rel="stylesheet" href="popup-compartilhamento.css">
+            <span onclick="closePopup()" style="position: absolute; top: 5px; right: 10px; cursor: pointer;">X</span>
+            <p>Compartilhe suas magias favoritas:</p>
+            <input type="text" id="linkInput" readonly>
+            <button class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-10 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800" onclick="copyLink()">Copiar</button>
+        </div>
+    </main>
+</div>
+
+
+<script>
+    document.getElementById("shareButton").addEventListener("click", async function () {
+        document.getElementById("popup").style.display = "block";
+        //var userId = await User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+        var userId = sessionStorage.getItem("userId");
+        document.getElementById("linkInput").value = "https://spellsscroll.azurewebsites.net/Usuarios/Details/" + userId;
+    });
+
+    function closePopup() {
+        document.getElementById("popup").style.display = "none";
+    }
+
+    function copyLink() {
+        var linkInput = document.getElementById("linkInput");
+        linkInput.select();
+        document.execCommand("copy");
+        alert("Link copiado para a área de transferência!");
+    }
+
+    function getFavoriteSpell() {
+        var userId = sessionStorage.getItem("userId");
+        $.ajax({
+            type: "GET",
+            url: "/FavoriteSpells/User/" + userId,
+            data: {
+                UserId: userId
+            },
+            success: function (response) {
+                console.log(response);
+                renderFavoriteSpells(response);
+            },
+            error: function (error) {
+                console.error('Error:', error);
+                $('#favorite-spells-container').html('<p>Error loading favorite spells.</p>');
+            }
+        });
+    }
+
+    function renderFavoriteSpells(spells) {
+        var container = $('#favorite-spells-container');
+        container.empty(); // Clear any existing content
+
+        if (spells && spells.length > 0) {
+            var list = $('<ul></ul>'); // Create a list to display spells
+            spells.forEach(function (spell) {
+                var listItem = $('<li><a  href="/Spells/Details/' + spell.spellId + '">' + spell.spellId + '</a></li>');
+                list.append(listItem);
+            });
+            container.append(list);
+        } else {
+            container.html('<p>No favorite spells found for this user.</p>');
+        }
+    }
+
+
+
+</script>

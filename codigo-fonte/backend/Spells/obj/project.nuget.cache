@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rihP6pyFE4C4xqHaVQ0JHweks08mO6gaQ3ZxqYVAjICDwcNXg2Jx+ivrUemDsn2OK8uBE43L6R9GT6ZVm0Cntw==",
+  "dgSpecHash": "Rvsi+rbYPpqsU9lPz0FlQe7e3IngHCtqljWbRF9UZlNr7tmUo3ugw4I3OpCPIkciH+AhFwQXjtFHs6zX1L5K3Q==",
   "success": true,
-  "projectFilePath": "C:\\Programas\\PUC\\spellscroll\\PMV-ADS-2024-1-E1-SpellScroll\\codigo-fonte\\Backend\\Spells\\Spells.csproj",
+  "projectFilePath": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Spells.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juana\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\juana\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
