@@ -1,0 +1,26 @@
+message: Please cite this software using these metadata.
+title: SpellScroll
+authors:
+  - family-names: Alves de Souza Costa
+    given-names: Arthur
+  - family-names: Pereira Alves Andrade
+    given-names: Juan
+  - family-names: Pinto Ramalho
+    given-names: Kiane
+  - family-names: Elaine Quispe Suxo
+    given-names: Lucy
+  - family-names: Macedo de Moraes Filho
+    given-names: Luiz Gustavo
+  - family-names: Gonçalves Chagas
+    given-names: Thiago
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alberto Marques Pietrobon
+    given-names: Carlos
+keywords:
+  - Jogo
+  - RPG
+  - Mesa
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll
+version: 1.0.0
+date-released: 2024-06-23
