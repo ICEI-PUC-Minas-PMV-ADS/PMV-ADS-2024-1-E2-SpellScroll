@@ -6,38 +6,51 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 - CT-01 - Acessar informações - O site apresenta uma página com uma lista completa e informativa sobre todas as magias de D&D.
 
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll/assets/146040309/8dfb21aa-96f1-451e-b226-87a4579e16e8)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll/assets/146040309/b042628a-3af6-409b-aaf6-ec2aff90d89b)
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 - CT-02 - Utilizar o filtro de pesquisa - Filtro funcional de magias por Classe e/ou Level.
 
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll/assets/146040309/c9a43450-79bd-4af3-a969-673335712836)
-  Filtro por Classe
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll/assets/146040309/267a20c1-1c91-447b-b5a4-594588906d83)
 
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll/assets/146040309/1a4884d7-a5fc-48bd-9e06-62f7d8449dbd)
-  Filtro por Level
+  Filtro por Classe e Level
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------  
 
 - CT-03 - Realizar Cadsatro - Cadastros funcionais.
 
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll/assets/146040309/635deaff-c7a2-4da4-88f7-011dd611e2ba)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll/assets/146040309/92dafc86-11a5-474f-9f3e-e38be220cb6e)
+
 Exemplo de cadastro.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 - CT-04 - Realizar Login - Login funcional.
 
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll/assets/146040309/84025c28-362e-400f-8264-b1fdd802f294)
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll/assets/146040309/4f26d348-f241-4ee7-b0b7-f1d51cd57652)
+
 Exemplo de Login.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 - CT-05 e CT-06 - Criar, Acessar, Editar e Compartilhar a Lista de Favoritos -
 
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll/assets/146040309/1c003bce-e3d6-48cd-bd01-a85e9baf8853)
-Exemplo de Compartilhamento
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll/assets/146040309/6d02b647-0485-4f31-9b0d-692d27784159)
 
-![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll/assets/146040309/70d03d83-01ee-44cb-a49d-babe64e9555e)
-Exemplo de Exibir e Editar a Lista de Favoritos no Perfil.
+Exemplo de Favoritar Magias
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll/assets/146040309/bf5bfae2-6427-4ccd-abb8-7329f0c0daf3)
+
+Exemplo de exibição de Magias Favoritas
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-SpellScroll/assets/146040309/b363a78f-88aa-4983-bbde-bc706402e138)
+
+Exemplo de Compartilhar Lista de Favoritos
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
