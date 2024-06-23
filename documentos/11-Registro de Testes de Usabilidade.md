@@ -49,10 +49,10 @@ Escala de avaliação
 ## Tela de Magias
 |Heurísticas (Nielsen)	|Notas dos avaliadores *	|Média *	|Consenso *   | Considerações *   |Melhorias *   |
 |--------------------|------------------------------|-----------|-------------|---------------------|------------|
-|Visibilidade do status | Aval 1: 3 <br>Aval 2: 2 <br>| 2,5 | 2 |Embora o design da tela precise de melhorias, está funcional e compreensível    | Melhoria no design |	
+|Visibilidade do status | Aval 1: 1 <br>Aval 2: 1 <br>| 1 | 1 |Foram realizadas as melhorias e está funcional e compreensível.    | Melhoria no design apenas a nível de maior compatibilidade com o restante do site. |	
 |Compatibilidade com o mundo real |	Aval 1: 0 <br>Aval 2: 0 <br> | 0 | 0 |    |  Sem necessidade de melhoria |
 |Prevenção de erros | Aval 1: 0 <br>Aval 2: 0 <br> | 0 | 0 | O sistema sinaliza com pop-ups que aparecem em caso de erro e validatores nos formulários | Sem necessidade de melhoria |
-|Estética e design minimalista | Aval 1: 2 <br>Aval 2: 2 <br><br> | 2 | 2 | As funcionalidades estão operacionais, porém o design requer aprimoramento | Melhoria no design |		
+|Estética e design minimalista | Aval 1: 0 <br>Aval 2: 1 <br><br> | 0,5 | 1 | Foram realizadas as melhorias | Melhoria no design apenas a nível de maior compatibilidade com o restante do site. |		
 |Ajudar o usuário a reconhecer, diagnosticar e recuperar-se de erros | Aval 1: 0 <br>Aval 2: 0 <br>| 0 | 0 | O sistema sinaliza com pop-ups que aparecem em caso de erro e validatores nos formulários | Sem necessidade de melhoria |
 
 ## Tela de Login	
@@ -84,8 +84,8 @@ Escala de avaliação
 |--------------------|------------------------------|-----------|-------------|
 |Cadastro do usuário	 | Sentiu falta da confirmação de senha | A tela não possui o campo de confirmação de senha | Adicionar o campo de confirmação de senha |
 |Login do usuário     |	Percebeu um defeito no botão Star  |  Há um defeito no design no botão "Star" | Correção do design do botão "Star"    
-|Filtrar magia por classe | A tela é usual, mas não é moderna   |		    |  Melhoria no design da tela   |		
-|Filtrar magia por nível |  A tela é usual, mas não é moderna   |		    |  Melhoria no design da tela   |			
+|Filtrar magia por classe | A tela é agradável e intuitiva   |		    |  Melhorias realizadas  |		
+|Filtrar magia por nível |  A tela é agradável e intuitiva   |		    |  Melhorias realizadas   |			
 |Compartilhar magia |   O recurso está funcionando, mas o visual do pop-up precisa de melhoria |  |Melhoria no design do pop-up  |		
 
 
