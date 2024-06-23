@@ -189,7 +189,7 @@ namespace Spells.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Details), new { id = usuario.Id });
             }
             return View(usuario);
         }

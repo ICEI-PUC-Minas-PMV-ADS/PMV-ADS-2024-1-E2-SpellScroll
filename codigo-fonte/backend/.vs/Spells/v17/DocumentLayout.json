@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\pmv-ads-2024-1-e2-spellscroll\\codigo-fonte\\backend\\spells\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\pmv-ads-2024-1-e2-spellscroll\\codigo-fonte\\backend\\spells\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\pmv-ads-2024-1-e2-spellscroll\\codigo-fonte\\backend\\spells\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\pmv-ads-2024-1-e2-spellscroll\\codigo-fonte\\backend\\spells\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\pmv-ads-2024-1-e2-spellscroll\\codigo-fonte\\backend\\spells\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\pmv-ads-2024-1-e2-spellscroll\\codigo-fonte\\backend\\spells\\views\\spells\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\spells\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\pmv-ads-2024-1-e2-spellscroll\\codigo-fonte\\backend\\spells\\views\\shared\\output.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\shared\\output.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\pmv-ads-2024-1-e2-spellscroll\\codigo-fonte\\backend\\spells\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\pmv-ads-2024-1-e2-spellscroll\\codigo-fonte\\backend\\spells\\views\\spells\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\spells\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\pmv-ads-2024-1-e2-spellscroll\\codigo-fonte\\backend\\spells\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\pmv-ads-2024-1-e2-spellscroll\\codigo-fonte\\backend\\spells\\views\\spells\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -37,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\pmv-ads-2024-1-e2-spellscroll\\codigo-fonte\\backend\\spells\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\pmv-ads-2024-1-e2-spellscroll\\codigo-fonte\\backend\\spells\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|solutionrelative:spells\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A861B93-9776-4C2F-ADE0-FB26FF6415B0}|Spells\\Spells.csproj|c:\\programas\\puc\\pmv-ads-2024-1-e2-spellscroll\\codigo-fonte\\backend\\spells\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -77,65 +85,142 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "output.css",
+              "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Shared\\output.css",
+              "RelativeDocumentMoniker": "Spells\\Views\\Shared\\output.css",
+              "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Shared\\output.css",
+              "RelativeToolTip": "Spells\\Views\\Shared\\output.css",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAC4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-23T15:19:34.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Spells\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Spells\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAH0JAAAAAAAAAAAgwEECAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-23T15:17:31.908Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "index.cshtml",
-              "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Usuarios\\index.cshtml",
-              "RelativeDocumentMoniker": "Spells\\Views\\Usuarios\\index.cshtml",
-              "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Usuarios\\index.cshtml",
-              "RelativeToolTip": "Spells\\Views\\Usuarios\\index.cshtml",
-              "ViewState": "AQIAAHkAAAAAAAAAAAAIwKEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-22T01:46:23.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "index.cshtml.css",
               "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Spells\\index.cshtml.css",
               "RelativeDocumentMoniker": "Spells\\Views\\Spells\\index.cshtml.css",
               "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Spells\\index.cshtml.css",
               "RelativeToolTip": "Spells\\Views\\Spells\\index.cshtml.css",
-              "ViewState": "AQIAABwBAAAAAAAAAAAYwEUBAAAAAAAA",
+              "ViewState": "AQIAABwBAAAAAAAAAAAYwC4BAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-21T19:21:12.887Z"
+              "WhenOpened": "2024-06-21T19:21:12.887Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "index.cshtml",
-              "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Spells\\index.cshtml",
-              "RelativeDocumentMoniker": "Spells\\Views\\Spells\\index.cshtml",
-              "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Spells\\index.cshtml",
-              "RelativeToolTip": "Spells\\Views\\Spells\\index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAAAAAA",
+              "DocumentIndex": 11,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Spells\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Models\\Usuario.cs",
+              "RelativeToolTip": "Spells\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T01:35:34.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Spells\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Spells\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAowL8AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T01:35:19.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\juana\\AppData\\Roaming\\Microsoft\\UserSecrets\\0d52e577-4510-4a9c-a823-eeec8640eadd\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\juana\\AppData\\Roaming\\Microsoft\\UserSecrets\\0d52e577-4510-4a9c-a823-eeec8640eadd\\secrets.json",
+              "ToolTip": "C:\\Users\\juana\\AppData\\Roaming\\Microsoft\\UserSecrets\\0d52e577-4510-4a9c-a823-eeec8640eadd\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\juana\\AppData\\Roaming\\Microsoft\\UserSecrets\\0d52e577-4510-4a9c-a823-eeec8640eadd\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAABHAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-10T01:30:58.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\appsettings.json",
+              "RelativeDocumentMoniker": "Spells\\appsettings.json",
+              "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\appsettings.json",
+              "RelativeToolTip": "Spells\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-10T01:24:08.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Spells\\Details.cshtml",
+              "RelativeDocumentMoniker": "Spells\\Views\\Spells\\Details.cshtml",
+              "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Spells\\Details.cshtml",
+              "RelativeToolTip": "Spells\\Views\\Spells\\Details.cshtml",
+              "ViewState": "AQIAAJgBAAAAAAAAAAAAALMBAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-21T19:19:14.391Z"
+              "WhenOpened": "2024-06-10T01:36:07.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Usuarios\\Details.cshtml",
+              "RelativeDocumentMoniker": "Spells\\Views\\Usuarios\\Details.cshtml",
+              "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Usuarios\\Details.cshtml",
+              "RelativeToolTip": "Spells\\Views\\Usuarios\\Details.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAD4v1YAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T00:27:10.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Usuarios\\Edit.cshtml",
               "RelativeDocumentMoniker": "Spells\\Views\\Usuarios\\Edit.cshtml",
               "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Usuarios\\Edit.cshtml",
               "RelativeToolTip": "Spells\\Views\\Usuarios\\Edit.cshtml",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAIwCUAAAAkAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAIwBMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-21T19:09:30.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "20240610014319_M16-changingDB.cs",
               "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Migrations\\20240610014319_M16-changingDB.cs",
               "RelativeDocumentMoniker": "Spells\\Migrations\\20240610014319_M16-changingDB.cs",
@@ -148,67 +233,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Spells\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Models\\Usuario.cs",
-              "RelativeToolTip": "Spells\\Models\\Usuario.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T01:35:34.519Z"
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Spells\\index.cshtml",
+              "RelativeDocumentMoniker": "Spells\\Views\\Spells\\index.cshtml",
+              "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Spells\\index.cshtml",
+              "RelativeToolTip": "Spells\\Views\\Spells\\index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T19:19:14.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Usuarios\\index.cshtml",
+              "RelativeDocumentMoniker": "Spells\\Views\\Usuarios\\index.cshtml",
+              "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Usuarios\\index.cshtml",
+              "RelativeToolTip": "Spells\\Views\\Usuarios\\index.cshtml",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAIwKEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T01:46:23.452Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Spells\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "Spells\\Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAowHQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T01:35:19.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "secrets.json",
-              "DocumentMoniker": "C:\\Users\\juana\\AppData\\Roaming\\Microsoft\\UserSecrets\\0d52e577-4510-4a9c-a823-eeec8640eadd\\secrets.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\juana\\AppData\\Roaming\\Microsoft\\UserSecrets\\0d52e577-4510-4a9c-a823-eeec8640eadd\\secrets.json",
-              "ToolTip": "C:\\Users\\juana\\AppData\\Roaming\\Microsoft\\UserSecrets\\0d52e577-4510-4a9c-a823-eeec8640eadd\\secrets.json",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\juana\\AppData\\Roaming\\Microsoft\\UserSecrets\\0d52e577-4510-4a9c-a823-eeec8640eadd\\secrets.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAABHAQAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-10T01:30:58.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\appsettings.json",
-              "RelativeDocumentMoniker": "Spells\\appsettings.json",
-              "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\appsettings.json",
-              "RelativeToolTip": "Spells\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AQAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-10T01:24:08.99Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Usuarios\\Details.cshtml",
-              "RelativeDocumentMoniker": "Spells\\Views\\Usuarios\\Details.cshtml",
-              "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Usuarios\\Details.cshtml",
-              "RelativeToolTip": "Spells\\Views\\Usuarios\\Details.cshtml",
-              "ViewState": "AQIAAC4AAAAAAAAAAAD4v0IAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T00:27:10.861Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Spells\\Create.cshtml",
               "RelativeDocumentMoniker": "Spells\\Views\\Spells\\Create.cshtml",
@@ -220,20 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Spells\\Details.cshtml",
-              "RelativeDocumentMoniker": "Spells\\Views\\Spells\\Details.cshtml",
-              "ToolTip": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Spells\\Details.cshtml",
-              "RelativeToolTip": "Spells\\Views\\Spells\\Details.cshtml",
-              "ViewState": "AQIAAKoBAAAAAAAAAAAAAMMAAABoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T01:36:07.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Usuarios\\Login.cshtml",
               "RelativeDocumentMoniker": "Spells\\Views\\Usuarios\\Login.cshtml",
@@ -245,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "spell.cs",
               "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Models\\spell.cs",
               "RelativeDocumentMoniker": "Spells\\Models\\spell.cs",
@@ -257,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Spells\\Views\\Home\\Index.cshtml",
@@ -269,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "FavoriteSpell.cs",
               "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Models\\FavoriteSpell.cs",
               "RelativeDocumentMoniker": "Spells\\Models\\FavoriteSpell.cs",
@@ -281,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Programas\\PUC\\PMV-ADS-2024-1-E2-SpellScroll\\codigo-fonte\\backend\\Spells\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Spells\\Views\\Shared\\_Layout.cshtml",

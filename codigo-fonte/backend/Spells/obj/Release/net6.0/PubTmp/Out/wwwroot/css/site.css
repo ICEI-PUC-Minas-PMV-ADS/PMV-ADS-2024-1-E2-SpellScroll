@@ -2504,3 +2504,8 @@ input:checked + .toggle-bg {
         line-height: 1;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+        fill: white;
+        color: white;
+}
