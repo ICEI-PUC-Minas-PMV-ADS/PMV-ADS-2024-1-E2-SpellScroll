@@ -1,43 +1,74 @@
-﻿@model Spells.Models.Usuario
+@model Spells.Models.Usuario
 
 @{
     ViewData["Title"] = "Details";
     var userName = @Html.DisplayFor(model => model.Nome);
 }
 <style>
-    .center{
-        display:flex;
+    .center {
+        display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .popup{
+    .popup {
         color: #000;
     }
 
-    .header{
+    .header {
         display: flex;
         justify-content: space-between;
         padding: 4rem;
     }
 
-    .pfp{
+    .pfp {
         display: flex;
         flex-direction: row;
         align-items: center;
     }
 
-    img{
+    img {
         background: #fff;
         border-radius: 50%;
     }
 
-    .subtext{
-        padding-left: 1rem
+    .subtext {
+        padding-left: 1rem;
     }
 
-    .edit{
+    .edit {
         color: #6f29e9;
+    }
+
+    .card {
+        border: 1px solid #ccc;
+        border-radius: 0.5em;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin: 1em;
+        padding: 1em;
+        background-color: #fff;
+        transition: transform 0.2s;
+        width: 250px; /* Tamanho padrão para os cards */
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card-title {
+        font-size: 1.25em;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+        color: #333; /* Ensure the text color is visible */
+    }
+
+    .card-content {
+        font-size: 1em;
+        color: #666;
+    }
+
+    .align-right {
+        justify-content: flex-end; /* Alinha o botão à direita */
     }
 </style>
 
@@ -59,34 +90,29 @@
 <div>
     <hr />
     <div class="header">
-    <div class="pfp">
-    <img src="https://robohash.org/@userName" alt="@userName foto de perfil" />
-    <div class="subtext">
-        <h4 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white dark:bg-gray-900">@Html.DisplayFor(model => model.Nome)</h4>
-        <p>Oi, estou usando o SpellScroll</p>
-        <a class="edit" asp-action="Edit" asp-route-id="@Model?.Id">Editar Perfil</a>
-    </div>
-    </div>
-    <!--Botão Popup Compartilhar-->
-    <div id="shareButton" class="btn-compartilhar">
-        <a href="#" class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-10 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Compartilhar</a>
-    </div>
-    </div>
-
-</div>
-
-<div class="pt-8 pb-8 center">
-    <div class="flex align-center gap-4 ">
-    <a class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-10 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800 center" onclick="getFavoriteSpell()">
-        Exibir Magias favoritas
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M228,175a8,8,0,0,1-10.92-3l-19-33.2A123.23,123.23,0,0,1,162,155.46l5.87,35.22a8,8,0,0,1-6.58,9.21A8.4,8.4,0,0,1,160,200a8,8,0,0,1-7.88-6.69l-5.77-34.58a133.06,133.06,0,0,1-36.68,0l-5.77,34.58A8,8,0,0,1,96,200a8.4,8.4,0,0,1-1.32-.11,8,8,0,0,1-6.58-9.21L94,155.46a123.23,123.23,0,0,1-36.06-16.69L39,172A8,8,0,1,1,25.06,164l20-35a153.47,153.47,0,0,1-19.3-20A8,8,0,1,1,38.22,99c16.6,20.54,45.64,45,89.78,45s73.18-24.49,89.78-45A8,8,0,1,1,230.22,109a153.47,153.47,0,0,1-19.3,20l20,35A8,8,0,0,1,228,175Z"></path></svg>
-        </a>
+        <div class="pfp">
+            <img src="https://robohash.org/@userName" alt="@userName foto de perfil" />
+            <div class="subtext">
+                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white dark:bg-gray-900">@Html.DisplayFor(model => model.Nome)</h1>
+                <p>Oi, estou usando o SpellScroll</p>
+                <a class="edit" asp-action="Edit" asp-route-id="@Model?.Id">Editar Perfil</a>
+            </div>
         </div>
-
-
-    <!-- Favorite spells will be rendered here -->
+        <!--Botão Popup Compartilhar-->
+        <div id="shareButton" class="btn-compartilhar">
+            <a href="#" class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-10 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Compartilhar</a>
+        </div>
+    </div>
 </div>
-<div id="favorite-spells-container">
+
+<div class="pt-8 pb-8">
+    <div class="flex align-center gap-4 align-right">
+        <a id="favoriteSpellButton" class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-10 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800 center">
+            Exibir Magias favoritas
+        </a>
+    </div>
+    <div id="favorite-spells-container" class="flex flex-wrap">
+    </div>
 </div>
 
 <div>
@@ -101,11 +127,67 @@
     </main>
 </div>
 
-
 <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("favorite-spells-container").style.display = "none"; // Initially hide the list
+
+        document.getElementById("favoriteSpellButton").addEventListener("click", function () {
+            var container = document.getElementById("favorite-spells-container");
+            if (container.style.display === "none") {
+                getFavoriteSpell();
+            } else {
+                container.style.display = "none";
+            }
+        });
+
+        function getFavoriteSpell() {
+            var userId = sessionStorage.getItem("userId");
+            $.ajax({
+                type: "GET",
+                url: "/FavoriteSpells/User/" + userId,
+                data: {
+                    UserId: userId
+                },
+                success: function (response) {
+                    console.log(response);
+                    renderFavoriteSpells(response);
+                    document.getElementById("favorite-spells-container").style.display = "flex"; // Show the list when spells are loaded
+                },
+                error: function (error) {
+                    console.error('Error:', error);
+                    document.getElementById("favorite-spells-container").innerHTML = '<p>Error loading favorite spells.</p>';
+                    document.getElementById("favorite-spells-container").style.display = "flex"; // Show the error message
+                }
+            });
+        }
+
+        function renderFavoriteSpells(spells) {
+            var container = document.getElementById("favorite-spells-container");
+            container.innerHTML = ''; // Clear any existing content
+
+            if (spells && spells.length > 0) {
+                spells.forEach(function (spell) {
+                    var card = document.createElement("div");
+                    card.className = "card";
+                    var cardTitle = document.createElement("div");
+                    cardTitle.className = "card-title";
+                    cardTitle.textContent = spell.spellId; 
+                    var cardContent = document.createElement("div");
+                    cardContent.className = "card-content";
+                    cardContent.innerHTML = '<a href="/Spells/Details/' + spell.spellId + '">Ver detalhes</a>'; // Use 'id' to link to the details page
+
+                    card.appendChild(cardTitle);
+                    card.appendChild(cardContent);
+                    container.appendChild(card);
+                });
+            } else {
+                container.innerHTML = '<p>No favorite spells found for this user.</p>';
+            }
+        }
+    });
+
     document.getElementById("shareButton").addEventListener("click", async function () {
         document.getElementById("popup").style.display = "block";
-        //var userId = await User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
         var userId = sessionStorage.getItem("userId");
         document.getElementById("linkInput").value = "https://spellsscroll.azurewebsites.net/Usuarios/Details/" + userId;
     });
@@ -120,42 +202,4 @@
         document.execCommand("copy");
         alert("Link copiado para a área de transferência!");
     }
-
-    function getFavoriteSpell() {
-        var userId = sessionStorage.getItem("userId");
-        $.ajax({
-            type: "GET",
-            url: "/FavoriteSpells/User/" + userId,
-            data: {
-                UserId: userId
-            },
-            success: function (response) {
-                console.log(response);
-                renderFavoriteSpells(response);
-            },
-            error: function (error) {
-                console.error('Error:', error);
-                $('#favorite-spells-container').html('<p>Error loading favorite spells.</p>');
-            }
-        });
-    }
-
-    function renderFavoriteSpells(spells) {
-        var container = $('#favorite-spells-container');
-        container.empty(); // Clear any existing content
-
-        if (spells && spells.length > 0) {
-            var list = $('<ul></ul>'); // Create a list to display spells
-            spells.forEach(function (spell) {
-                var listItem = $('<li><a  href="/Spells/Details/' + spell.spellId + '">' + spell.spellId + '</a></li>');
-                list.append(listItem);
-            });
-            container.append(list);
-        } else {
-            container.html('<p>No favorite spells found for this user.</p>');
-        }
-    }
-
-
-
 </script>
