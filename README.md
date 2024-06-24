@@ -41,7 +41,7 @@ O objetivo do projeto é a criação de uma aplicação que exibe todas as magia
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+https://spellsscroll.azurewebsites.net/
 
 # Código-Fonte
 
