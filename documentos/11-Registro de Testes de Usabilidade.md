@@ -22,7 +22,7 @@ Template de Avaliação Heurística
 Identificação
 |Nome Projeto |SpellScroll | <br>
 |--------------------|------------------------------------|----------------------------------------|
-|Grupo	|4 | 
+|Grupo	| 1 | 
 |Integrantes |Arthur Alves de Souza Costa <br> Juan Pereira Alves Andrade <br> Kiane Ramalho <br> Lucy Elaine <br> Luiz Gustavo Macedo <br> Thiago Gonçalves|
 
 
