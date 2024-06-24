@@ -9,7 +9,8 @@
 
 ## Vídeo de apresentação
 
-[![IMAGE ALT TEXT](https://youtu.be/rik7H6GNHaM)
+[![Assista o vídeo no YouTube](http://img.youtube.com/vi/rik7H6GNHaM/0.jpg)](https://www.youtube.com/watch?v=rik7H6GNHaM)
+
 
 ## Hospedagem
 
